@@ -10,13 +10,13 @@
 
 // Grays
 // -------------------------
-@black:                 #000;
-@grayDarker:            #222;
-@grayDark:              #333;
-@gray:                  #555;
-@grayLight:             #999;
-@grayLighter:           #eee;
-@white:                 #fff;
+@black:                 #041208;
+@grayDarker:            #16511C;
+@grayDark:              darken(@grayDark, 10%);
+@gray:                  #7AAA30;
+@grayLight:             #B5C1A1;
+@grayLighter:           #D1CDB6;
+@white:                 #EBEEE8;
 
 
 // Accent colors
@@ -39,7 +39,7 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             #4C5244;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -49,6 +49,7 @@
 @baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @baseLineHeight:        18px;
 @altFontFamily:         Georgia, "Times New Roman", Times, serif;
+@textColor:             @grayDark;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
